@@ -1,10 +1,24 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
-    background-color: #ebebeb;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     
+}
+
+div{
+    background-color: #6b0036;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    padding: 40px 10px 10px 10px;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+};
 }
 
 .container {
@@ -12,13 +26,13 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: #a50d0d;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     
 }
 
 h1 {
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 10px;
     
 }
@@ -29,16 +43,18 @@ img {
     object-fit: cover;
     border-radius: 50px;
     margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 p {
     font-size: 18px;
     font-weight: 500;
-    color: #000000;
-    margin: 5px 5px 5px 5px;
+    color: #ffffff;
+    margin: 10px 5px 5px 5px;
 }
 
-font-size: 15px;
+button{
+    font-size: 15px;
     height: 30px;
     width: 110px;
     background-color: green;
@@ -46,4 +62,5 @@ font-size: 15px;
     padding: 5px 5px 5px 5px;
     border: none;
     border-radius: 5px;
+    
 }
